@@ -6,6 +6,7 @@ import StudentCreate from '../views/students/Create.vue';
 import StudentEdit from '../views/students/Edit.vue';
 import Login from '../views/Login.vue';
 import Dashboard from '../views/Dashboard.vue';
+import VFlogin from '../views/VFlogin.vue';
 
 const routes = [
     {
@@ -35,6 +36,10 @@ const routes = [
     {
         path : '/dashboard',
         component : Dashboard
+    },
+    {
+        path : '/vflogin',
+        component : VFlogin
     }
 ];
 

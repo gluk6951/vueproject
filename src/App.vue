@@ -1,6 +1,19 @@
 import {RouterLink , RouterView} from 'vue-router'
 
+
 <template>
+  <v-app>
+     <HeaderView />
+      <v-main class="d-flex align-center justify-center" height="300">
+        <v-container>
+           <RouterView/>
+         </v-container>
+      </v-main>  
+      
+  </v-app>
+</template>
+
+<!--<template>
 <header>
   <div class="wrapper">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,4 +44,15 @@ import {RouterLink , RouterView} from 'vue-router'
  </header> 
  
 <RouterView/>
-</template>
+</template>-->
+
+<script>
+    import HeaderView from '../src/components/Header.vue';
+  
+    export default {
+      name: 'App',
+      components: {
+        HeaderView // Register the component for use in the template
+      }
+    };
+    </script>

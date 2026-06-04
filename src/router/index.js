@@ -10,7 +10,7 @@ import VFlogin from '../views/VFlogin.vue';
 
 const routes = [
     {
-        path : '/home',
+        path : '/home2',
         component : HomeView
     },
     {

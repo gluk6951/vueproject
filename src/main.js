@@ -17,8 +17,8 @@ const vuetify = createVuetify({
 })
 
 const app = createApp(App);
-
-//lukman
+ 
+//lukman2
 //createApp(App).use(router).mount('#app');
 app.use(router);
 //app.use(vuetify_config);
